@@ -4,7 +4,7 @@ $(document).ready(function () {
     for (var i = 0; i < timeBlocks.length; i++) {
         var timeBlock = (timeBlocks[i])
         var timeBlockkId = timeBlock.children[0].id;
-        var hour = parseInt(timeBlockkId.split('-')[1]
+        var hour = parseInt(timeBlockkId.split('-')[1])
         if (hour < currentHour) {
             console.log(timeBlock.addClass)
             console.log('add .past class')
